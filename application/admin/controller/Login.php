@@ -7,8 +7,9 @@
  */
 
 namespace app\admin\controller;
+use think\Controller;
 
-class Login extends Common
+class Login extends Controller
 {
     public function index(){
         return view();
